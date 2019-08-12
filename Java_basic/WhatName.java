@@ -7,10 +7,10 @@ class WhatName{
         //값을 입력받는 지점
         Scanner scanner = new Scanner(System.in);
         name = scanner.next();
-        System.out.print("나는 " + name +"라고 해...!!!\n");
+        System.out.println(String.format("나는 %s라고 한다....!!!", name));
         System.out.println("어르신 연세가...");
         int age = 0;
         age = scanner.nextInt();
-        System.out.print("나이는 "+ age + "라구..");
+        System.out.print(String.format("나는 %d살이야....!!", age));
     }
 }
